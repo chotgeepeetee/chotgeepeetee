@@ -14,7 +14,7 @@ opposite_color = "#ffffff"
 from tkinter import filedialog
 from PIL import Image, ImageTk
 upload = "default"
-img = Image.open("v3ect0rGPT.ico")
+img = Image.open("chotGPT.ico")
 img2 = Image.open("user.jpg")
 
 
