@@ -173,7 +173,7 @@ root.geometry('1000x1000')
 
 # root has no image argument, so use a label as a panel
 
-root.title("V3ect0rGPT")
+root.title("ChotGeePeeTee")
 root.configure(bg=current_color)  # White background
 
 # Create a frame to hold the chat output and scrollbar
