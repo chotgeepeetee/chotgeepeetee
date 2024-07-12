@@ -185,7 +185,7 @@ input_entry = tk.Text(root, height=1, bg=current_color, fg=opposite_color, font=
 input_entry.pack(fill=tk.X)
 
 # Create the send button
-send_button = ctk.CTkButton(root, text="Send", command=send_message, fg_color="#072BA0", hover_color="#011B70", text_color="#ffffff", font=("Consolas", 12))
+send_button = ctk.CTkButton(root, text="Send", command=send_message, fg_color=fg_color="#7DDA58", hover_color="#5EA941", text_color="#ffffff", font=("Consolas", 12))
 send_button.pack(side=tk.RIGHT)
 
 image = ImageTk.PhotoImage(img)
@@ -196,10 +196,10 @@ chat_output.insert(tk.END, "Welcome to V3ectorGPT! The first message you send wi
 chat_output.config(state=tk.DISABLED)
             
 
-load_button = ctk.CTkButton(root, text="Load Chat Log", command=UploadAction, fg_color="#072BA0", hover_color="#011B70", text_color="#ffffff", font=("Consolas", 12))
+load_button = ctk.CTkButton(root, text="Load Chat Log", command=UploadAction, fg_color="#7DDA58", hover_color="#5EA941", text_color="#ffffff", font=("Consolas", 12))
 load_button.pack(side=tk.LEFT)
 
-save_button = ctk.CTkButton(root, text="Save chat log", command=save_chathistory, fg_color="#072BA0", hover_color="#011B70", text_color="#ffffff", font=("Consolas", 12))
+save_button = ctk.CTkButton(root, text="Save chat log", command=save_chathistory, fg_color="#7DDA58", hover_color="#5EA941", text_color="#ffffff",, font=("Consolas", 12))
 save_button.pack(side=tk.LEFT)
 
 # Bind the <Return> key to the send_message function
@@ -210,7 +210,7 @@ def resize_window(event):
     if root.state() == "zoomed":
         root.update_idletasks()
         root.geometry(f"{root.winfo_width()}x{root.winfo_height()}")
-button = ctk.CTkButton(root, text="Change theme", command=change_color, fg_color="#072BA0", hover_color="#011B70", text_color="#ffffff", font=("Consolas", 12))
+button = ctk.CTkButton(root, text="Change theme", command=change_color, fg_color="#7DDA58", hover_color="#5EA941", text_color="#ffffff", font=("Consolas", 12))
 button.pack(side=tk.RIGHT)
 label = tk.Label(root, text="", bg=current_color, width=20, height=5)
 label.pack()
